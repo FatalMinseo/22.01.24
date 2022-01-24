@@ -11,7 +11,7 @@ public class Ex01 {
 		int user = 0;
 		int cnt = 0;
 		
-		// while(
+		// while(true or false)
 		while (user != answer) {
 			System.out.print("정답을 입력해주세요. >> ");
 			Scanner sc = new Scanner(System.in);
