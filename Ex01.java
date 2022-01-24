@@ -1,4 +1,4 @@
-package ¹İº¹¹®;
+package ë°˜ë³µë¬¸;
 
 import java.util.Scanner;
 
@@ -6,23 +6,23 @@ public class Ex01 {
 
 	public static void main(String[] args) {
 
-		// ¹İº¹¹®À¸·Î Á¤´ä ¸ÂÃß±â
+		// ë°˜ë³µë¬¸ìœ¼ë¡œ ì •ë‹µ ë§ì¶”ê¸°
 		int answer = 30;
 		int user = 0;
 		int cnt = 0;
 		
-		// while
+		// while(
 		while (user != answer) {
-			System.out.print("Á¤´äÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä. >> ");
+			System.out.print("ì •ë‹µì„ ì…ë ¥í•´ì£¼ì„¸ìš”. >> ");
 			Scanner sc = new Scanner(System.in);
 			user = sc.nextInt();
 			
 			cnt++;
-			System.out.println("½ÃµµÇÑ È½¼ö : " + cnt);
+			System.out.println("ì‹œë„í•œ íšŸìˆ˜ : " + cnt);
 			
 
 		}
-		System.out.println("Á¤´äÀÔ´Ï´Ù!");
+		System.out.println("ì •ë‹µì…ë‹ˆë‹¤!");
 	}
 
 }
